@@ -1,0 +1,28 @@
+1. Does subscribe after pressing 'Sign Up' button
+
+Given the Framer site is loaded
+And I scroll to the bottom of the components page
+And I see a Subscription form
+When I fill in a valid e-mail
+And press the 'Sign Up' button
+Then I am subscribed
+
+2. Does 'Sign Up' form pops up
+
+Given the Framer site is loaded
+When I click the SIGN UP button in the upper right corner
+Then a 'Sign Up' form pops up
+
+3. Does the 'visit' button work 
+
+Given the Framer site is loaded
+And I scroll to the 'Many types of components to customize' section
+I click the 'visit' button on any of the cards
+Then another page is loaded
+
+4. Does the 'watch video' button work
+
+Given the Framer site is loaded
+And I see the 'watch video' button
+When I click on it
+Then a demo video is played 

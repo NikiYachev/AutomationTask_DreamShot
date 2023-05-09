@@ -1,0 +1,35 @@
+1. The 'watch video' button does NOT work /Title/
+
+Severity: Medium
+Priority: High
+Reproducibility: Every time
+
+Summary: When pressing the 'watch' video button in the 'Mix 3D and 2D design with Framer' section, nothing happens. 
+
+I could make a .HAR file, but on pressing the button, no request is executed. 
+It seems there is no back-end code behind it.
+
+Browser: GoogleChrome
+Url: https://mind-wend-913065.framer.app/
+Attachment: https://app.birdeatsbug.com/sessions/pqu05GNQ6wWWQ7mTFLRyExT8SL6MiRUnOosir5f-T-CC
+
+2. The 'Sign Up' form does NOT work/Title/
+
+Severity: Blocking
+Priority: High
+Reproducibility: Every time
+
+Summary: I fill in the 'e-mail' and the 'password' fields with valid data, but on pressing the
+'Sign Up' button I get an error message.
+
+The message itself: "Please. include an '@' in the e_mail address. The {my password} is missing an '@'.
+
+It seems that the 'password' field has the restrictions of an 'e-mail' field.  
+  
+Browser: GoogleChrome
+Url: https://mind-wend-913065.framer.app/signup
+Attachment: https://app.birdeatsbug.com/sessions/kmXbztfSX-4D5yRVeGGUam3lM8cGj-HAkzJ9FWbex6L0
+
+ 
+
+
